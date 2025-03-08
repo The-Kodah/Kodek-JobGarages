@@ -1,12 +1,14 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 
 game 'gta5'
 lua54 'yes'
-author "NevoSwissa#8239"
-description "CL-PoliceGarageV2 or JobGarage it can do anything related to creating garages !"
+author "Kodah"
+description "Job Garage Script Originally Made by NevoSwissa#8239 (CL-PoliceGarageV2)"
+version '1.0.0'
 
 shared_scripts {
     'config.lua',
+    '@ox_lib/init.lua',
 }
 
 client_scripts {
